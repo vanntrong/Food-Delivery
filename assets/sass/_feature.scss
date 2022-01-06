@@ -1,0 +1,50 @@
+.feature {
+  margin-bottom: 100px;
+  &-heading {
+    max-width: 432px;
+    text-align: center;
+    margin: 0 auto 55px;
+  }
+  &-sub-heading {
+    text-align: center;
+  }
+  &-list {
+    display: flex;
+    align-items: center;
+    gap: 0 100px;
+    margin-bottom: 110px;
+  }
+  &-item {
+    text-align: center;
+    &__heading {
+      margin: 40px 0 24px;
+      color: $text-color-black-2;
+      font-size: 26px;
+      font-weight: 700;
+    }
+    &__desc {
+      color: $text-color-gray;
+      line-height: 1.5;
+    }
+  }
+
+  &-banner {
+    background-image: url(../image/feature-background.png);
+    background-size: cover;
+    padding: 61px 93px;
+    &__content {
+      background-origin: padding-box;
+      color: white;
+    }
+    &__heading {
+      font-weight: 700;
+      font-size: 34px;
+      margin-bottom: 22px;
+    }
+    &__desc {
+      font-size: 16px;
+      max-width: 349px;
+      line-height: 1.5;
+    }
+  }
+}

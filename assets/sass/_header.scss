@@ -1,0 +1,48 @@
+.header {
+  margin: 26px 0;
+  padding: 27px 0 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &-operation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-signup {
+    width: 84px;
+    height: 42px;
+    background: linear-gradient(180deg, #272727 0%, #171717 46.01%, #101010 100%);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  &-cart {
+    cursor: pointer;
+    position: relative;
+    transform: translateY(10px);
+  }
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 40px;
+}
+
+.menu-item {
+  a {
+    text-decoration: none;
+    color: $text-color-black-6;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,13 @@
+.countries {
+  margin-top: 120px;
+  margin-bottom: 100px;
+  &-list {
+    margin-top: 42px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 23px 100px;
+  }
+  &-item a {
+    color: $text-color-gray-6;
+  }
+}
